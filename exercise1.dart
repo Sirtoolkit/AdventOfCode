@@ -201,6 +201,7 @@ main() {
     1436,
     1560,
   ];
+  print(expenses);
   for (var i = 0; i < expenses.length; ++i) {
     for (var j = i + 1, len = expenses.length; j < len; ++j) {
       if (expenses[i] + expenses[j] == 2020) {
